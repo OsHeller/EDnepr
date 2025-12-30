@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>єДніпро · PWA</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-shell__header">
+        <h1 class="app-shell__title">єДніпро</h1>
+        <p class="app-shell__subtitle">Компактный экран для установки как PWA</p>
+      </header>
+
+      <section class="card">
+        <div class="card__row card__row--between">
+          <div class="card__label">ФИО</div>
+          <div class="card__fio" data-max-size="18" data-min-size="14" id="fioValue">
+            Анастасия Александровна Супердлинная-Фамилия
+          </div>
+        </div>
+
+        <div class="card__row card__grid">
+          <button class="btn btn--primary" type="button">Подтвердить</button>
+          <button class="btn btn--ghost" type="button">Отменить</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
